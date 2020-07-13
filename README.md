@@ -11,6 +11,11 @@ Data classes from [Projector protocol](https://github.com/JetBrains/projector-cl
 - A manual parser which uses `mapOf` to handle polymorphism ([ManualKotlinMapJsonDecoder.kt](src/main/kotlin/decoder/ManualKotlinMapJsonDecoder.kt)).
 - A manual parser which uses `json` to handle polymorphism ([ManualJsMapJsonDecoder.kt](src/main/kotlin/decoder/ManualJsMapJsonDecoder.kt)).
 
+## Running
+Build the project via `./gradlew browserProductionWebpack`. After it, open `build/distributions/index.html` in a browser.
+
+You will see 5 buttons, each launches its test.
+
 ## Results
 I use Chromium 78 on Linux Mint 19.3. CPU is i7-7700HQ.
 
