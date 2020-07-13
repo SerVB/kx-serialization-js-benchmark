@@ -12,6 +12,10 @@ Data classes from [Projector protocol](https://github.com/JetBrains/projector-cl
 - A manual parser which uses `json` to handle polymorphism ([ManualJsMapJsonDecoder.kt](src/main/kotlin/decoder/ManualJsMapJsonDecoder.kt)).
 
 ## Running
+### Online
+<https://servb.github.io/kx-serialization-js-benchmark/index.html>.
+
+### Local
 Build the project via `./gradlew browserProductionWebpack`. After it, open `build/distributions/index.html` in a browser.
 
 You will see 5 buttons, each launches its test.
